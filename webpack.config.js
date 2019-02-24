@@ -66,4 +66,3 @@ module.exports = {
     new WebpackMd5Hash(),
   ],
 };
-
