@@ -1,6 +1,5 @@
 import React, { Fragment } from 'react';
 import Header from './presentational/Header';
-import Footer from './presentational/Footer';
 import Books from './container/Books';
 
 const App = () => {
@@ -8,7 +7,6 @@ const App = () => {
     <Fragment>
       <Header />
       <Books />
-      <Footer />
     </Fragment>
   );
 };
