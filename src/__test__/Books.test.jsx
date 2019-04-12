@@ -1,7 +1,6 @@
 import React from 'react';
 import { shallow } from '../../enzyme';
 import Books from '../components/Books';
-import mockAxios from '../__mocks__/axios';
 
 jest.mock('../services/getBooks');
 

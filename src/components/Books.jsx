@@ -47,7 +47,6 @@ class Books extends Component {
   async fetchBooks(parameter) {
     try {
       const books = await getBooks(parameter);
-      console.log(books);
       if (books.status === 200) {
         if (books.data.items.length > 0) {
           this.setState({ books: books.data.items });
@@ -125,5 +124,3 @@ class Books extends Component {
 }
 
 export default Books;
-
-{/* <Loader type="Grid" color="#2ACE4E" height="50" width="50"/> */}

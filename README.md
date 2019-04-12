@@ -1,5 +1,7 @@
 # Maktaba - meaning library (institution which holds books etc.)
 
+[![Build Status](https://travis-ci.org/eldrego/maktaba.svg?branch=staging)](https://travis-ci.org/eldrego/maktaba) [![Hound](https://img.shields.io/badge/Protected_by-Hound-a873d1.svg) [![Coverage Status](https://coveralls.io/repos/github/eldrego/maktaba/badge.svg?branch=staging)](https://coveralls.io/github/eldrego/maktaba?branch=staging)
+
 [Maktaba](https://maktaba-bookfinder.netlify.com/) is an application that allows you to use the Google Books API to search for books.
 
 ## Getting Started
