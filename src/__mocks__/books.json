@@ -1,0 +1,440 @@
+[
+  {
+   "kind": "books#volume",
+   "id": "LcMaQQ0wfL0C",
+   "etag": "U5emkB8tMA0",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/LcMaQQ0wfL0C",
+   "volumeInfo": {
+    "title": "A World of Gangs",
+    "subtitle": "Armed Young Men and Gangsta Culture",
+    "authors": [
+     "John Hagedorn"
+    ],
+    "publisher": "U of Minnesota Press",
+    "publishedDate": "2008",
+    "description": "\"On the street with gangs in three world cities - Chicago, Rio de Janeiro, and Capetown - Hagedorn discovers that many of them have institutionalized as a strategy to confront a hopeless cycle of poverty, racism, and oppression. The mhilistic appeal of gangsta rap and its ethic of survival \"by any means necessary,\" he argues, provides vital insights into the ideology and persistence of gangs around the world. Proposing how gangs can be encouraged to overcome their violent tendencies, Hagedorn appeals to community leaders to use the urgency, outrage, and resistance common to both gang life and hip-hop to bring gangs into broader movements for social justice.\"--BOOK JACKET.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780816650668"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0816650667"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 198,
+    "printType": "BOOK",
+    "categories": [
+     "Social Science"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "0.2.2.0.preview.3",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=LcMaQQ0wfL0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=LcMaQQ0wfL0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=LcMaQQ0wfL0C&printsec=frontcover&dq=gangs&hl=&cd=1&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=LcMaQQ0wfL0C&dq=gangs&hl=&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/A_World_of_Gangs.html?hl=&id=LcMaQQ0wfL0C"
+   },
+   "saleInfo": {
+    "country": "NG",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "NG",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/A_World_of_Gangs-sample-epub.acsm?id=LcMaQQ0wfL0C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/A_World_of_Gangs-sample-pdf.acsm?id=LcMaQQ0wfL0C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=LcMaQQ0wfL0C&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "&quot;On the street with gangs in three world cities - Chicago, Rio de Janeiro, and Capetown - Hagedorn discovers that many of them have institutionalized as a strategy to confront a hopeless cycle of poverty, racism, and oppression."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "pvz_JktDhq8C",
+   "etag": "OZ4/fuN6gZc",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/pvz_JktDhq8C",
+   "volumeInfo": {
+    "title": "Gangs in America III",
+    "authors": [
+     "C. Ronald Huff"
+    ],
+    "publisher": "SAGE",
+    "publishedDate": "2002",
+    "description": "As communities face ever-growing gang-related problems, Gangs in America III provides the most up-to-date information on the diverse perspectives and complex issues that arise in our efforts to understand, prevent, and control gang violence and crime.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "0761924248"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9780761924241"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 332,
+    "printType": "BOOK",
+    "categories": [
+     "Social Science"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "preview-1.0.0",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=pvz_JktDhq8C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=pvz_JktDhq8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=pvz_JktDhq8C&printsec=frontcover&dq=gangs&hl=&cd=2&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=pvz_JktDhq8C&dq=gangs&hl=&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/Gangs_in_America_III.html?hl=&id=pvz_JktDhq8C"
+   },
+   "saleInfo": {
+    "country": "NG",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "NG",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=pvz_JktDhq8C&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "As communities face ever-growing gang-related problems, Gangs in America III provides the most up-to-date information on the diverse perspectives and complex issues that arise in our efforts to understand, prevent, and control gang violence ..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "ynXZsgEACAAJ",
+   "etag": "yhSO7hY0wNA",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/ynXZsgEACAAJ",
+   "volumeInfo": {
+    "title": "How Gangs Work",
+    "subtitle": "An Ethnography of Youth Violence",
+    "authors": [
+     "J. Densley"
+    ],
+    "publisher": "Palgrave Macmillan",
+    "publishedDate": "2013-04-11",
+    "description": "Drawing on extensive interviews with gang members, this book provides a vivid portrayal of gang life. Topics include the profiles and motivations of gang members; the processes of gang evolution, organization, and recruitment; gang members' uses of violence, media, and technology and the role of gangs in the drugs trade and organized crime",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "1137572930"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9781137572936"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": false
+    },
+    "pageCount": 213,
+    "printType": "BOOK",
+    "categories": [
+     "Social Science"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "preview-1.0.0",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=ynXZsgEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=ynXZsgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=ynXZsgEACAAJ&dq=gangs&hl=&cd=3&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=ynXZsgEACAAJ&dq=gangs&hl=&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/How_Gangs_Work.html?hl=&id=ynXZsgEACAAJ"
+   },
+   "saleInfo": {
+    "country": "NG",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "NG",
+    "viewability": "NO_PAGES",
+    "embeddable": false,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=ynXZsgEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Drawing on extensive interviews with gang members, this book provides a vivid portrayal of gang life."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "bb8UCgAAQBAJ",
+   "etag": "13JMm5Ho1LY",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/bb8UCgAAQBAJ",
+   "volumeInfo": {
+    "title": "God's Gangs",
+    "subtitle": "Barrio Ministry, Masculinity, and Gang Recovery",
+    "authors": [
+     "Edward Flores"
+    ],
+    "publisher": "NYU Press",
+    "publishedDate": "2013-12-11",
+    "description": "Winner, 2014 Distinguished Contribution to Research Award presented by the Latina/o Sociology Section of the American Sociological Association Los Angeles is the epicenter of the American gang problem. Rituals and customs from Los Angeles’ eastside gangs, including hand signals, graffiti, and clothing styles, have spread to small towns and big cities alike. Many see the problem with gangs as related to urban marginality—for a Latino immigrant population struggling with poverty and social integration, gangs offer a close-knit community. Yet, as Edward Orozco Flores argues in God’s Gangs, gang members can be successfully redirected out of gangs through efforts that change the context in which they find themselves, as well as their notions of what it means to be a man. Flores here illuminates how Latino men recover from gang life through involvement in urban, faith-based organizations. Drawing on participant observation and interviews with Homeboy Industries, a Jesuit-founded non-profit that is one of the largest gang intervention programs in the country, and with Victory Outreach, a Pentecostal ministry with over 600 chapters, Flores demonstrates that organizations such as these facilitate recovery from gang life by enabling gang members to reinvent themselves as family men and as members of their community. The book offers a window into the process of redefining masculinity. As Flores convincingly shows, gang members are not trapped in a cycle of poverty and marginality. With the help of urban ministries, such men construct a reformed barrio masculinity to distance themselves from gang life.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781479850099"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1479850098"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": false
+    },
+    "pageCount": 243,
+    "printType": "BOOK",
+    "categories": [
+     "Religion"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "preview-1.0.0",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=bb8UCgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=bb8UCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=bb8UCgAAQBAJ&printsec=frontcover&dq=gangs&hl=&cd=4&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=bb8UCgAAQBAJ&dq=gangs&hl=&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/God_s_Gangs.html?hl=&id=bb8UCgAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "NG",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "NG",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=bb8UCgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "The book offers a window into the process of redefining masculinity. As Flores convincingly shows, gang members are not trapped in a cycle of poverty and marginality."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "d-QZIBtgiMYC",
+   "etag": "GGu8yzLUcng",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/d-QZIBtgiMYC",
+   "volumeInfo": {
+    "title": "Encyclopedia of Gangs",
+    "authors": [
+     "Louis Kontos",
+     "David Brotherton"
+    ],
+    "publisher": "ABC-CLIO",
+    "publishedDate": "2008",
+    "description": "Examines gangs throughout the United States in over eighty entries covering topics such as history, the wide range of communities where gangs form, and their increasingly complex lifestyle.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "0313334021"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9780313334023"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 289,
+    "printType": "BOOK",
+    "categories": [
+     "Reference"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "0.0.3.0.preview.3",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=d-QZIBtgiMYC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=d-QZIBtgiMYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=d-QZIBtgiMYC&printsec=frontcover&dq=gangs&hl=&cd=5&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=d-QZIBtgiMYC&dq=gangs&hl=&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/Encyclopedia_of_Gangs.html?hl=&id=d-QZIBtgiMYC"
+   },
+   "saleInfo": {
+    "country": "NG",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "NG",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/Encyclopedia_of_Gangs-sample-epub.acsm?id=d-QZIBtgiMYC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/Encyclopedia_of_Gangs-sample-pdf.acsm?id=d-QZIBtgiMYC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=d-QZIBtgiMYC&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Examines gangs throughout the United States in over eighty entries covering topics such as history, the wide range of communities where gangs form, and their increasingly complex lifestyle."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "6ZA2-JroF30C",
+   "etag": "+97rvnnSRcs",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/6ZA2-JroF30C",
+   "volumeInfo": {
+    "title": "Street Gangs Throughout the World",
+    "authors": [
+     "Herbert C. Covey"
+    ],
+    "publisher": "Charles C Thomas Publisher",
+    "publishedDate": "2010",
+    "description": "This updated and expanded new edition continues the theme of the first edition of emphasizing the substantial growth of street gangs throughout the world. Although a substantial amount of research on street gangs has been conducted in recent decades, much of it has focused on the United States. This book summarizes much of the research being conducted in many other countries where the street gang phenomenon is currently developing, which includes poverty, the retreat of the state, increasing income inequality, urbanization, population growth, exploitation, marginalization, underground economie.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780398079703"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0398079706"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 328,
+    "printType": "BOOK",
+    "categories": [
+     "Electronic books"
+    ],
+    "averageRating": 5.0,
+    "ratingsCount": 1,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "0.0.2.0.preview.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=6ZA2-JroF30C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=6ZA2-JroF30C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=6ZA2-JroF30C&printsec=frontcover&dq=gangs&hl=&cd=6&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=6ZA2-JroF30C&dq=gangs&hl=&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/Street_Gangs_Throughout_the_World.html?hl=&id=6ZA2-JroF30C"
+   },
+   "saleInfo": {
+    "country": "NG",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "NG",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/Street_Gangs_Throughout_the_World-sample-epub.acsm?id=6ZA2-JroF30C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/Street_Gangs_Throughout_the_World-sample-pdf.acsm?id=6ZA2-JroF30C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=6ZA2-JroF30C&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "This book summarizes much of the research being conducted in many other countries where the street gang phenomenon is currently developing, which includes poverty, the retreat of the state, increasing income inequality, urbanization, ..."
+   }
+  }
+ ]
