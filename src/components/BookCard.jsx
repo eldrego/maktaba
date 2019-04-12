@@ -3,14 +3,6 @@ import PropTypes from 'prop-types';
 import randomize from 'randomatic';
 
 class BookCard extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      read: false,
-    };
-  }
-
   renderAuthors(authors) {
     const authorList = authors.map((author) => {
       const authorKey = randomize('0', 6);
@@ -46,12 +38,12 @@ class BookCard extends Component {
             <h6 className="card-title mb-2 text-muted text-left">
               {book.volumeInfo.title}
             </h6>
-            <p className="card-text">
+            <p className="card-text book-author">
               <span><b>Authored By: </b></span>
               { authors }
             </p>
             <p className="card-text">
-              <small className="text-muted">
+              <small className="text-muted book-publisher">
                 <span><b>Published By: </b></span>
                 {book.volumeInfo.publisher || 'No Publisher provided'}</small>
             </p>

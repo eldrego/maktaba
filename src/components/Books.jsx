@@ -1,9 +1,9 @@
 import React, { Component, Fragment } from 'react';
-import axios from 'axios';
 import { ToastsContainer, ToastsStore, ToastsContainerPosition } from 'react-toasts';
-import Loader from 'react-loader-spinner'
+// import Loader from 'react-loader-spinner';
 import randomize from 'randomatic';
-import BookCard from '../presentational/BookCard';
+import BookCard from './BookCard';
+import getBooks from '../services/getBooks';
 
 
 class Books extends Component {
@@ -18,6 +18,10 @@ class Books extends Component {
 
     this.onClick = this.onClick.bind(this);
     this.onChange = this.onChange.bind(this);
+  }
+
+  componentDidMount() {
+    this.fetchBooks('Gangs');
   }
 
   onChange(event) {
@@ -41,14 +45,12 @@ class Books extends Component {
   }
 
   async fetchBooks(parameter) {
-    const apiKey = 'AIzaSyAKZ2ii9mXycVLSQO7KFw_sR-8zlS8E2Io';
-    const url = `https://www.googleapis.com/books/v1/volumes?q=${parameter}&maxResults=15&key=${apiKey}`;
     try {
-      // axios.defaults.timeout = 1;
-      const response = await axios.get(url);
-      if (response.status === 200) {
-        if (response.data.items.length > 0) {
-          this.setState({ books: response.data.items });
+      const books = await getBooks(parameter);
+      console.log(books);
+      if (books.status === 200) {
+        if (books.data.items.length > 0) {
+          this.setState({ books: books.data.items });
           this.setState({ isLoading: !this.state.isLoading });
         } else {
           ToastsStore.warning('No books were returned');
@@ -76,7 +78,7 @@ class Books extends Component {
     const { books, isLoading } = this.state;
 
     const loading = isLoading
-      ? <Loader type="Grid" color="#2ACE4E" height="50" width="50"/>
+      ? 'Loading'
       : false;
 
     const bookListing = books.length < 1 ? <div className="col-md-12"><h5 className="empty-message text-center">Nothing here yet - Try searching for a book!</h5></div> : this.renderBooks(books);
@@ -90,7 +92,7 @@ class Books extends Component {
                 <div className="form-row">
                   <div className="offset-md-1 col-9">
                     <input type="text"
-                      className="form-control"
+                      className="form-control search-form"
                       name="searchParam"
                       autoComplete="off"
                       placeholder="Search by book title or author"
@@ -100,7 +102,7 @@ class Books extends Component {
                   <div className="col">
                     <button
                       type="button"
-                      className="btn btn-primary mb-2 btn-success"
+                      className="btn btn-primary mb-2 btn-success search"
                       onClick={this.onClick}>Search</button>
                   </div>
                 </div>
@@ -109,7 +111,7 @@ class Books extends Component {
           </div>
           <div className="row">
             <div className="col-md-12">
-              <div className="text-center">
+              <div className="text-center loader-display">
                 { loading }
               </div>
             </div>
@@ -123,3 +125,5 @@ class Books extends Component {
 }
 
 export default Books;
+
+{/* <Loader type="Grid" color="#2ACE4E" height="50" width="50"/> */}

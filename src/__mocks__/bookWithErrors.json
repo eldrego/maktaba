@@ -1,0 +1,12 @@
+{
+  "kind": "books#volume",
+  "id": "LcMaQQ0wfL0C",
+  "etag": "U5emkB8tMA0",
+  "selfLink": "https://www.googleapis.com/books/v1/volumes/LcMaQQ0wfL0C",
+  "volumeInfo": {
+   "title": "A World of Gangs",
+   "subtitle": "Armed Young Men and Gangsta Culture",
+   "publishedDate": "2008",
+   "description": "\"On the street with gangs in three world cities - Chicago, Rio de Janeiro, and Capetown - Hagedorn discovers that many of them have institutionalized as a strategy to confront a hopeless cycle of poverty, racism, and oppression. The mhilistic appeal of gangsta rap and its ethic of survival \"by any means necessary,\" he argues, provides vital insights into the ideology and persistence of gangs around the world. Proposing how gangs can be encouraged to overcome their violent tendencies, Hagedorn appeals to community leaders to use the urgency, outrage, and resistance common to both gang life and hip-hop to bring gangs into broader movements for social justice.\"--BOOK JACKET."
+  }
+ }
