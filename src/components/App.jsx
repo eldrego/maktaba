@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
-import Header from './presentational/Header';
-import Books from './container/Books';
+import Header from './Header';
+import Books from './Books';
 
 const App = () => {
   return (
