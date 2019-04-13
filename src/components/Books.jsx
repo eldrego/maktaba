@@ -110,8 +110,7 @@ class Books extends Component {
               </form>
             </div>
           </div>
-          <div className="row loaded-place">
-            place
+          <div className="row">
             <div className="col-md-12">
               <div className="text-center loader-display">
                 { loading }
