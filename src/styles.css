@@ -64,3 +64,7 @@ h1, h2, h3, h4, h5, h6 {
 .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
 
 .empty-message { margin-top: 50px; margin-bottom: 50px; padding-top: 50px; padding-bottom: 50px}
+
+.loader {
+  margin: auto;
+}
