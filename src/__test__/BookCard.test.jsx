@@ -6,7 +6,7 @@ import bookWithErrors from '../__mocks__/bookWithErrors.json';
 
 describe('My Bookfinder application', () => {
   describe('BookCard component', () => {
-    it('Books component renders without crashing', () => {
+    it('renders without crashing', () => {
       shallow(<BookCard book={book}/>);
     });
 

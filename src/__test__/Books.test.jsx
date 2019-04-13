@@ -1,12 +1,12 @@
 import React from 'react';
-import { shallow } from '../../enzyme';
+import { shallow, mount } from '../../enzyme';
 import Books from '../components/Books';
 
 jest.mock('../services/getBooks');
 
 describe('My Bookfinder application', () => {
   describe('Book component', () => {
-    it('Books component renders without crashing', () => {
+    it('renders without crashing', () => {
       shallow(<Books />);
     });
 
@@ -16,7 +16,7 @@ describe('My Bookfinder application', () => {
       expect(contentTitle).toEqual('Nothing here yet - Try searching for a book!');
     });
 
-    describe('Search', () => {
+    describe('Search, triggers', () => {
       const event = {
         preventDefault: () => {},
         target: {
@@ -25,40 +25,36 @@ describe('My Bookfinder application', () => {
         },
       };
 
-      const wrapper = shallow(<Books />);
-
-      it('captures the search term before searching', () => {
+      it('state change with the search term before searching', () => {
+        const wrapper = shallow(<Books />);
         wrapper.find('input.search-form').simulate('change', event);
-        expect(wrapper.state().searchParam).toBe('This gangs of new york');
+        expect(wrapper.instance().state.searchParam).toBe('This gangs of new york');
       });
 
-      it('displays the loader when the search button is clicked', () => {
-        jest.spyOn(event, 'preventDefault');
+      it('displaying the loader when the search button is clicked', () => {
+        const wrapper = shallow(<Books />);
+        jest.spyOn(wrapper.instance(), 'onClick');
+        expect(wrapper.instance().state.isLoading).toBe(true);
+        expect(wrapper.find('Loading').length).toEqual(1);
+      });
+
+      it('the fetchBooks method when the search button is clicked', () => {
+        const wrapper = mount(<Books />);
+        const spy = jest.spyOn(wrapper.instance(), 'fetchBooks');
+        wrapper.update();
+        wrapper.find('input.search-form').simulate('change', event);
         wrapper.find('button.search').simulate('click', event);
-        expect(event.preventDefault).toBeCalled();
-        expect(wrapper.state().isLoading).toBe(true);
-        // revist test when loader displays
-        // expect(wrapper.find('div.loader-display').children()).toEqual({});
+        expect(spy).toHaveBeenCalled();
       });
 
-      xit('returns the result for the searched book', async () => {
+      it('fetching the books using google Books API and renders them on mount', (done) => {
+        const wrapper = shallow(<Books />);
         setTimeout(() => {
           wrapper.update();
-          expect(wrapper.find('BookCard').length).toEqual(1);
+          expect(wrapper.instance().state.books.length).toEqual(6);
+          expect(wrapper.find('BookCard').length).toEqual(6);
           done();
         });
-
-        // const BooksClass = new Books();
-        // mockAxios.get.mockImplementationOnce(() => Promise.resolve({
-        //   data: {
-        //     items: mockBooks
-        //   },
-        //   status: 200
-        // }));
-
-        // await BooksClass.fetchBooks('gangs');
-        // wrapper.update();
-        // expect(wrapper.state().books.length).toEqual(0);
       });
     });
   });
