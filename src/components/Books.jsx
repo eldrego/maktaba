@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import { ToastsContainer, ToastsStore, ToastsContainerPosition } from 'react-toasts';
-// import Loader from 'react-loader-spinner';
+import Loader from 'react-loading';
 import randomize from 'randomatic';
 import BookCard from './BookCard';
 import getBooks from '../services/getBooks';
@@ -45,6 +45,8 @@ class Books extends Component {
   }
 
   async fetchBooks(parameter) {
+    this.setState({ isLoading: !this.state.isLoading });
+
     try {
       const books = await getBooks(parameter);
       if (books.status === 200) {
@@ -64,7 +66,7 @@ class Books extends Component {
     const bookItems = books.map((book) => {
       const bookKey = randomize('0', 6);
       return (
-        <div key={bookKey} className="col-md-4">
+        <div key={bookKey} className="col-md-4 book-card">
           <BookCard book={book} />
         </div>
       );
@@ -77,7 +79,7 @@ class Books extends Component {
     const { books, isLoading } = this.state;
 
     const loading = isLoading
-      ? 'Loading'
+      ? <Loader className={'loader'} type={'balls'} color={'#59D975'} height={'4%'} width={'4%'}/>
       : false;
 
     const bookListing = books.length < 1 ? <div className="col-md-12"><h5 className="empty-message text-center">Nothing here yet - Try searching for a book!</h5></div> : this.renderBooks(books);
@@ -114,6 +116,8 @@ class Books extends Component {
                 { loading }
               </div>
             </div>
+          </div>
+          <div className="row bookListing">
             { bookListing }
           </div>
         </div>
